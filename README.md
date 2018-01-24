@@ -6,16 +6,16 @@ Django: 2.0
 
 ## Installation
 
-Mise en place de l'environnement de developpement.
-```
-virtualenv -p python3.6 venv
-. venv/bin/activate
-```
-
 Récupération du dépôt Github.
 ```
 git clone https://github.com/duboisR/django_email.git
 cd django_email
+```
+
+Mise en place de l'environnement de developpement.
+```
+virtualenv -p python3.6 venv
+. venv/bin/activate
 pip install -Ur requirements.txt
 ```
 
