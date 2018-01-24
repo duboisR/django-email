@@ -39,3 +39,5 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> send_mail('Subject here', 'Here is the message.', 'from@example.com', ['to@example.com'], fail_silently=False)
 1
 ```
+
+Si vous vous connectez sur Mailinator, vous devriez pouvoir visualiser l'e-mail qui a été redirigé dans la boîte mail de développement (django_email@mailinator.com).
